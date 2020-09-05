@@ -1,6 +1,11 @@
 .navbar {
   height: 100px;
 }
+.subscribe {
+  background-color: rgb(255, 255, 0);
+  border-radius: 50px;
+  width: 120px;
+}
 .last-section {
   background-color: #dfe1e6;
 }
@@ -15,4 +20,24 @@ footer i {
 .footer-1 {
   position: relative;
   top: 30px;
+}
+.first-nav-bar::before {
+  background-color: red;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #fc2904;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  width: 83px;
+}
+h4 {
+  font-size: 15px;
+}
+h2 {
+  font-size: 18px;
+}
+p {
+  line-height: 17px;
 }

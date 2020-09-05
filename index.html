@@ -14,6 +14,10 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
     <div class="mx-3">
@@ -32,11 +36,11 @@
         alt="Responsive image"
       />
       <div class="float-right">
-        <button type="button" class="btn btn-lg">Login</button>
-        <button type="button" class="btn btn-lg">Subscribe</button>
+        <button type="button" class="btn btn-lg text-white font-weight-bold">Login</button>
+        <button type="button" class="btn btn-sm font-weight-bold subscribe">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
       </div>
     </nav>
-    <nav>
+    <nav class="first-nav-bar">
       <ul class="list-inline font-weight-bold">
         <li class="list-inline-item">
           <a href="#" class="text-dark border-right px-2 py-0">U.S</a>
@@ -59,22 +63,23 @@
           <a href="#" class="text-dark border-right px-2 py-0">Newsgeek</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark border-right px-3 py-0">Sports</a>
+          <a href="#" class="text-dark border-right px-2 py-0">Sports</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark border-right px-3 py-0">Health</a>
+          <a href="#" class="text-dark border-right px-2 py-0">Health</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark border-right px-3 py-0">The debate</a>
+          <a href="#" class="text-dark border-right px-2 py-0">The debate</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark border-right px-3 py-0">vantage</a>
+          <a href="#" class="text-dark border-right px-2 py-0">vantage</a>
         </li>
         <li class="list-inline-item">
           <a href="#" class="text-dark">weather</a>
         </li>
         <li class="list-inline-item font-weight-lighter">
           <a href="#" class="text-dark">Search <i class="fa fa-search"></i></a>
+          <!-- <input type="text" name="search" placeholder="search"> -->
         </li>
       </ul>
       <hr />
@@ -82,22 +87,22 @@
     <nav>
       <ul class="list-inline">
         <li class="list-inline-item font-weight-bold">
-          <a href="#" class="text-dark py-1">Trending</a>
+          <a href="#" class="text-dark py-1 pr-3 font-weight-light">Trending</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">Donald Trump</a>
+          <a href="#" class="text-dark pr-3 font-weight-light">Donald Trump</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">Joe Biden</a>
+          <a href="#" class="text-dark pr-3 font-weight-light">Joe Biden</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">China</a>
+          <a href="#" class="text-dark pr-3 font-weight-light">China</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">Coronavirus</a>
+          <a href="#" class="text-dark pr-3 font-weight-light font-weight-light">Coronavirus</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">2020 Election</a>
+          <a href="#" class="text-dark font-weight-light">2020 Election</a>
         </li>
       </ul>
       <hr />
@@ -121,9 +126,6 @@
       <p>
         Trump said his administration would do "everything<br />
         in its power to prevent weak mayors and lawless<br />
-        cities from taking Federal dollars while they let<br />
-        anarchists harm people, burn buildings, and ruin<br />
-        lives and businesses."
       </p>
       <img class="img-fluid" src="images/protests.webp" alt="Trump orders" />
       <h2>
@@ -419,7 +421,7 @@
 </div>
       <!-- Section-1-column-3 -->
       <div class="col-3">
-      <h4>THE DEBATE</h4>
+      <h4 class="border-bottom">THE DEBATE</h4>
       <div class="media">
       <img src="images/newt-gingrich.webp" alt="Defending-america" />
       <div class="media-body">

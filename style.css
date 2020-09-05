@@ -1,3 +1,18 @@
 .navbar {
   height: 100px;
 }
+.last-section {
+  background-color: #dfe1e6;
+}
+.btn-subscribe {
+  background-color: red;
+}
+footer i {
+  position: relative;
+  left: 600px;
+  font-size: 25px;
+}
+.footer-1 {
+  position: relative;
+  top: 30px;
+}

@@ -1,6 +1,6 @@
 # Newsweek-2
 implementing bootstrap
-#Resources
+#Built with
 Html
 Css
 Bootsrap 4
